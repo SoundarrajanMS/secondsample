@@ -32,7 +32,7 @@ System.out.println("\n");
 		for (Integer j : ex) {
 			System.out.println(j);
 			System.out.println("hai");
-			Thread.sleep(5000);
+			Thread.sleep(2000);
 		}
 		
 		
