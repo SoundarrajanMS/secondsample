@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.*;
 
 public class ExampleList {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Throwable {
 		List <Integer> ex = new  ArrayList<>();
 		
 		ex.add(10);
@@ -32,6 +32,7 @@ System.out.println("\n");
 		for (Integer j : ex) {
 			System.out.println(j);
 			System.out.println("hai how are you");
+Thread.sleep(1000);
 		}
 		
 		
