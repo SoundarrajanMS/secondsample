@@ -31,7 +31,8 @@ System.out.println("\n");
 
 		for (Integer j : ex) {
 			System.out.println(j);
-	Thread.sleep(1000);
+			System.out.println("hai how are you");
+Thread.sleep(1000);
 		}
 		
 		
